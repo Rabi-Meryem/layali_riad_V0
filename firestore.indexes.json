@@ -1,0 +1,33 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "riads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "locationtype", "order": "ASCENDING"},
+        {"fieldPath": "price", "order": "ASCENDING"},
+        {"fieldPath": "rooms", "order": "ASCENDING"},
+        {"fieldPath": "__name__", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "riads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "offers", "arrayConfig": "CONTAINS"},
+        {"fieldPath": "price", "order": "ASCENDING"},
+        {"fieldPath": "__name__", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "riads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "price", "order": "ASCENDING"},
+        {"fieldPath": "rooms", "order": "ASCENDING"},
+        {"fieldPath": "__name__", "order": "ASCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

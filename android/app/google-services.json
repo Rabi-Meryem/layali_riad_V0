@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "244568094414",
+    "project_id": "layali-riad",
+    "storage_bucket": "layali-riad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244568094414:android:2d8d26c61ece875951c29f",
+        "android_client_info": {
+          "package_name": "com.example.layali_riad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBclyunLYphELx3wNhYI2J8wDQ8x_iMdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
